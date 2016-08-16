@@ -5,7 +5,8 @@ namespace Chapter1
     {
         static void Main(string[] args)
         {
-            Exceptions4.Run();
+            AsyncAwait2.Run();
+            Console.WriteLine("press any key");
             Console.Read();
         }
     }
